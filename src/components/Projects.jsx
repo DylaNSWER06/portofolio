@@ -146,7 +146,7 @@ export default function Projects() {
         {/* Link ke semua project di GitHub */}
         <div className="mt-10 text-center">
           <a
-            href="https://github.com/alexpratama"
+            href="https://github.com/DylaNSWER06"
             target="_blank" rel="noopener noreferrer"
             className="btn-outline"
           >

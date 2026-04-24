@@ -10,12 +10,12 @@ export default function Footer() {
 
           {/* Brand */}
           <p className="font-display font-bold text-lg text-white">
-            Alex<span className="text-accent">.</span>
+            Dylan<span className="text-accent">.</span>
           </p>
 
           {/* Kredit */}
           <p className="font-body text-xs flex items-center gap-1">
-            © {year} Alex Pratama — Dibuat dengan{' '}
+            © {year} Dylan Akhtarreza — Dibuat dengan{' '}
             <FiHeart className="w-3 h-3 text-red-400 fill-red-400" />
             {' '}menggunakan React & Tailwind CSS
           </p>
@@ -23,9 +23,9 @@ export default function Footer() {
           {/* Sosial */}
           <div className="flex gap-3">
             {[
-              { icon: FiGithub,    href: 'https://github.com/alexpratama',          label: 'GitHub'    },
-              { icon: FiInstagram, href: 'https://instagram.com/alex.pratama_',     label: 'Instagram' },
-              { icon: FiLinkedin,  href: 'https://linkedin.com/in/alexpratama',     label: 'LinkedIn'  },
+              { icon: FiGithub,    href: 'https://github.com/DylaNSWER06',          label: 'GitHub'    },
+              { icon: FiInstagram, href: 'https://instagram.com/rzdylnn',     label: 'Instagram' },
+              { icon: FiLinkedin,  href: 'https://linkedin.com/in/DylanAkhtarreza',     label: 'LinkedIn'  },
             ].map(({ icon: Icon, href, label }) => (
               <a
                 key={label}
